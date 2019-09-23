@@ -1,8 +1,2 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-
-<tr *ngFor='let row of values'>
-  <td *ngFor='let col of row'>{{col}}</td>
-</tr>
-
+<app-table [content]='values'></app-table>
 <router-outlet></router-outlet>

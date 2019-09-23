@@ -12,8 +12,7 @@ export class AppComponent {
   values: Array<Array<string>>;
 
   constructor(private s: DataFetcherService){
-    s.readAsset('assets/features.csv').subscribe(data => this.values = s.parseCsv(data)); 
+    s.readAsset(s.urls.features).subscribe(data => this.values = s.parseTsv(data)); 
   }
-
   
 }
