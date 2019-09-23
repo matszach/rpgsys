@@ -3,14 +3,24 @@ table {
     background-color: #000;
 }
 
+td, th { 
+    padding: 5px;
+} 
+
 td {
     background-color: #CFA;
 }
 
 th {
     background-color: #8B6;
+    user-select: none;
+    cursor: pointer;
 }
 
 th:hover {
     background-color: #9C7;
+}
+
+th:active {
+    background-color: #AD8;
 }

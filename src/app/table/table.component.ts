@@ -29,7 +29,7 @@ export class TableComponent implements OnInit {
   }
 
   // Data is loaded here and not in constructor, 
-  // because the constructor is calleb before the Input takes place.
+  // because the constructor is called before the Input takes place.
   ngOnInit() {
     this.subscribeInitialData();
   }
@@ -39,7 +39,6 @@ export class TableComponent implements OnInit {
     this.service.readAsset(this.dataSourceUrl).subscribe(data => {
       this.content = this.service.parseTsv(data);
       this.initIsSortedBy(this.content);
-      console.log(this.isSortedBy);
     }); 
   }
 
@@ -97,6 +96,5 @@ export class TableComponent implements OnInit {
       this.isSortedBy[columnId] = true;
     }
   }
-
 
 }
