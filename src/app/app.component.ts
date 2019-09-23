@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { DataFetcherService } from './data-source/data-fetcher.service';
 
 @Component({
   selector: 'app-root',
@@ -9,10 +8,10 @@ import { DataFetcherService } from './data-source/data-fetcher.service';
 export class AppComponent {
   title = 'rpgsys';
 
-  values: Array<Array<string>>;
+  url: string = 'assets/features.tsv';
 
-  constructor(private s: DataFetcherService){
-    s.readAsset(s.urls.features).subscribe(data => this.values = s.parseTsv(data)); 
+  constructor(){
+
   }
   
 }

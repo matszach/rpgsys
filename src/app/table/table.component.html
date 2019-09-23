@@ -1,6 +1,7 @@
 <table>
   <tr *ngFor='let row of content | slice:0:1'> 
-    <th *ngFor='let value of row'>{{value}}</th>
+    <th *ngFor='let value of row; let i = index'
+     (click)='handleSortClick(i)' >{{value}}</th>
   </tr>
   <tr *ngFor='let row of content | slice:1'> 
     <td *ngFor='let value of row'>{{value}}</td>

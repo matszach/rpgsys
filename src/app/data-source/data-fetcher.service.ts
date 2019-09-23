@@ -7,11 +7,6 @@ import { HttpClient } from '@angular/common/http';
 
 export class DataFetcherService {
 
-  // asset file ulrs
-  urls = {
-    features : 'assets/features.tsv',
-  }
-
   // constructor
   constructor(private client: HttpClient) {}
 
