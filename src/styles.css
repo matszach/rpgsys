@@ -1,4 +1,26 @@
+/* default style reset */
 * {
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
+}
+
+html, body {
+    background-color: #EFD;
+    height: 100%;
+    width: 100%;
+}
+
+
+/* scrollbar */
+::-webkit-scrollbar {
+    transition-duration: 300ms;
+}
+ 
+::-webkit-scrollbar-track {
+    background-color: #BEA;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background-color: #AD9;
 }

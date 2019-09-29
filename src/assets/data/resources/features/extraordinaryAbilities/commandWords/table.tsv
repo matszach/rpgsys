@@ -1,0 +1,4 @@
+Description	Effect cost multiplier
+Does not require any verbal actions	1.05
+Requires speaking a single command word (fails if the user cannot speak)	1
+Requires speaking a complex magic incantation (fails if the user cannot speak OR hear)	0.95

@@ -1,0 +1,10 @@
+Item	Price
+Weapon, Simple, Heavy Weapon, Simple, Medium Weapon, Simple, Light Weapon, Martial, Heavy Weapon, Martial, Medium Weapon, Martial, Light	10 5 1/free 40 25 15
+Light armor Medium armor Heavy armor	10 50 200
+Small shield Large shield	10 25
+Clothes, common Clothes, warm Clothes, fine	5 10 30
+Tool, simple (15m rope, crowbar, hammer) Tool, complex (alchemical lab, surgeon's tools)	5 25
+Container, sack Container, pouch Container, backpack Container, case	1 5 10 25
+Rest, poor Rest, modest Rest, luxurious	1/free 5 15
+	
+	

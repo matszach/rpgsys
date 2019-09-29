@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { URLS } from './data-source/data-urls'
 
 @Component({
   selector: 'app-root',
@@ -8,10 +9,10 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'rpgsys';
 
-  url: string = 'assets/features.tsv';
+  url: string = URLS.resources.features.features;
+  purl: string = URLS.coreMechanics.skillChecks.paragraph;
 
-  constructor(){
-
+  constructor() {
   }
   
 }

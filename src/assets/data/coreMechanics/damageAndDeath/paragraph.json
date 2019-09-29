@@ -1,0 +1,4 @@
+{
+	"title" : "Damage and death",
+	"content" : "Damage comes in different types:\n  - Physical (Forceful and Precise)\n  - Special (Fire, Cold, Lightning, Poison, Acid, Holy, Unholy, Psychic)\n  - other may be possible at the GM's discretionWhenever you take damage it is deducted from your current Hit points pool.Whenever any damage reduces your current Hit points to 0 or lower you become incapacitated and start bleeding out. Every turn you must attempt a Recovery check of a difficulty equal to 10 + the number of your Hit points below 0. On a success you stop bleeding out but remain incapacitated until your HP returns to at least 1. On a failure the number of your negative HP doubles. If that number ever exceeds your maximum HP you die. An ally may attempt to administer first aid to stop the bleeding. To do so they must succeed on a Knowledge check of a difficulty equal to the difficulty of the recovery roll."
+}

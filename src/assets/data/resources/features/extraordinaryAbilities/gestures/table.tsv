@@ -1,0 +1,6 @@
+Description	Effect cost multiplier
+Requires the user to have at least 2 free hands and to additionally spend 3 Movement points to use this ability	0.9
+Requires the user to have at least 1 free hand and to additionally spend 1 Movement point to use this ability	0.95
+Requires the user to have at least 1 free hand	1
+Requires only minor gestures from the user, no free hand is required	1.05
+Does not require any movement from the user	1.1

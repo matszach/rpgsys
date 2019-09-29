@@ -1,0 +1,4 @@
+Level	Cost	Effect
+I	1	Produces invisibility stopped by taking damage and attacking/using abilities.
+II	2	Produces invisibility stopped by attacking/using abilities.
+III	4	Produces invisibility stopped only by effect suppression.

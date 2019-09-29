@@ -11,8 +11,12 @@ export class DataFetcherService {
   constructor(private client: HttpClient) {}
 
   // reading asset files
-  readAsset(url: string) {
+  readTextAsset(url: string) {
     return this.client.get(url, {responseType: 'text'});
+  }
+
+  readJsonAsset(url: string) {
+    return this.client.get(url, {responseType: 'json'});    
   }
 
   // parsing subsribed data
@@ -27,5 +31,7 @@ export class DataFetcherService {
     rawCsvData.split('\n').forEach(e => data.push(e.split('\t')));
     return data;    
   }
+
+
 
 }

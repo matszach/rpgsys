@@ -17,7 +17,8 @@ export class TableComponent implements OnInit {
   service : DataFetcherService;
 
   // subsribed content
-  content : Array<Array<string>>;
+  headers : Array<string>;
+  records : Array<Array<string>>;
 
   // true for columnt sorted-by
   isSortedBy: Array<boolean> = [];
@@ -36,14 +37,16 @@ export class TableComponent implements OnInit {
 
   // ===== METHODS =====
   subscribeInitialData(){
-    this.service.readAsset(this.dataSourceUrl).subscribe(data => {
-      this.content = this.service.parseTsv(data);
-      this.initIsSortedBy(this.content);
+    this.service.readTextAsset(this.dataSourceUrl).subscribe(data => {
+      var content = this.service.parseTsv(data);
+      this.headers = content[0];
+      this.records = content.slice(1, content.length-1);
+      this.initIsSortedBy();
     }); 
   }
 
-  initIsSortedBy(data: Array<Array<string>>){
-    data[0].forEach(e => this.isSortedBy.push(false));
+  initIsSortedBy(){
+    this.headers.forEach(e => this.isSortedBy.push(false));
   }
 
   resetSortedBy(): void{
@@ -52,16 +55,16 @@ export class TableComponent implements OnInit {
     }
   }
 
-  sortByColumnAscending(columnId: number, data: Array<Array<string>>): Array<Array<string>>{
-    return data.slice(0, 1).concat(data.slice(1, data.length-1).sort( (o1, o2) => {
+  sortByColumnAscending(columnId: number, records: Array<Array<string>>): Array<Array<string>>{
+    return records.sort( (o1, o2) => {
       return this.compareValues(o1[columnId], o2[columnId])
-    }));
+    });
   }
 
-  sortByColumnDescending(columnId: number, data: Array<Array<string>>): Array<Array<string>>{
-    return data.slice(0, 1).concat(data.slice(1, data.length-1).sort( (o1, o2) => {
+  sortByColumnDescending(columnId: number, records: Array<Array<string>>): Array<Array<string>>{
+    return records.sort( (o1, o2) => {
       return this.compareValues(o2[columnId], o1[columnId])
-    }));
+    });
   }
 
   compareValues(v1: string, v2: string): number {
@@ -73,16 +76,18 @@ export class TableComponent implements OnInit {
   }
 
   subscribeSortedDataAscending(columnId: number){
-    this.service.readAsset(this.dataSourceUrl).subscribe(data => {
-      this.content = this.service.parseTsv(data);
-      this.content = this.sortByColumnAscending(columnId, this.content);
-    }); 
+    this.service.readTextAsset(this.dataSourceUrl).subscribe(data => {
+      var content = this.service.parseTsv(data);
+      this.headers = content[0];
+      this.records = this.sortByColumnAscending(columnId, content.slice(1, content.length-1));
+     }); 
   }
 
   subscribeSortedDataDescending(columnId: number){
-    this.service.readAsset(this.dataSourceUrl).subscribe(data => {
-      this.content = this.service.parseTsv(data);
-      this.content = this.sortByColumnDescending(columnId, this.content);
+    this.service.readTextAsset(this.dataSourceUrl).subscribe(data => {
+      var content = this.service.parseTsv(data);
+      this.headers = content[0];
+      this.records = this.sortByColumnDescending(columnId, content.slice(1, content.length-1));
     }); 
   }
 
