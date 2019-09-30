@@ -1,3 +1,22 @@
-<p>
-  rules-character-creation works!
-</p>
+
+<app-paragraph [dataSourceUrl]='root.paragraph'></app-paragraph>
+
+
+<app-paragraph [dataSourceUrl]='root.primaryAttributes.paragraph'></app-paragraph>
+<app-table [dataSourceUrl]='root.primaryAttributes.descriptions'></app-table>
+<app-table [dataSourceUrl]='root.primaryAttributes.byLevel'></app-table>
+<app-table [dataSourceUrl]='root.primaryAttributes.dicePerLevel'></app-table>
+
+
+<app-paragraph [dataSourceUrl]='root.secondaryAttributes.paragraph'></app-paragraph>
+<app-table [dataSourceUrl]='root.secondaryAttributes.descriptions'></app-table>
+
+
+<app-paragraph [dataSourceUrl]='root.skills.paragraph'></app-paragraph>
+<app-table [dataSourceUrl]='root.skills.descriptions'></app-table>
+<app-table [dataSourceUrl]='root.skills.byLevel'></app-table>
+<app-table [dataSourceUrl]='root.skills.dicePerLevel'></app-table>
+
+
+<app-paragraph [dataSourceUrl]='root.features.paragraph'></app-paragraph>
+<app-table [dataSourceUrl]='root.features.byLevel'></app-table>

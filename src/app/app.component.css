@@ -1,9 +1,8 @@
 #content-div{
-    margin: 0 100px;
+    margin: 0 8%;
     padding: 10px 30px;
     height: calc(100% - 70px);
-    min-width: 800px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
     background-color: #CDB;   
     overflow-y:scroll;   
     overflow-x: hidden;

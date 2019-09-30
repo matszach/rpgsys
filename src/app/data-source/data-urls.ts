@@ -196,9 +196,7 @@ export const URLS = {
 						paragraph : 'assets/data/resources/features/extraordinaryAbilities/effect/protective/paragraph.json',
 						summonCreature : {
 							desc : 'assets/data/resources/features/extraordinaryAbilities/effect/protective/summonCreature/desc.json',
-						},
-						summonTable : {
-							table : 'assets/data/resources/features/extraordinaryAbilities/effect/protective/summonTable/table.tsv',
+							table : 'assets/data/resources/features/extraordinaryAbilities/effect/protective/summonCreature/table.tsv',
 						},
 						telepathy : {
 							desc : 'assets/data/resources/features/extraordinaryAbilities/effect/protective/telepathy/desc.json',

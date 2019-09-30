@@ -1,4 +1,4 @@
 {
 	"title" : "Drain Hit points",
-	"content" : "Choose a damage type. The ability deals damage of that type.You regain half of the damage you deal as hit points, but no more than the maximum roll of the selected dice set\n(eg. no more than 20 for 2d10, and no more than 18 for 3d6)."
+	"content" : "Choose a damage type. The ability deals damage of that type.You regain half of the damage you deal as hit points, but no more than the maximum roll of the selected dice set<br>(eg. no more than 20 for 2d10, and no more than 18 for 3d6)."
 }

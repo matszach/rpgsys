@@ -1,3 +1,80 @@
-<p>
-  rules-resources works!
-</p>
+<app-paragraph [dataSourceUrl]='root.paragraph'></app-paragraph>
+
+<app-paragraph [dataSourceUrl]='root.equipment.paragraph'></app-paragraph>
+
+<div class='eablock'>
+  <app-paragraph [dataSourceUrl]='root.equipment.weapons.paragraph'></app-paragraph>
+  <app-table [dataSourceUrl]='root.equipment.weapons.weaponAttributes'></app-table>
+  <app-paragraph [dataSourceUrl]='root.equipment.weapons.weaponInfo'></app-paragraph>
+  <app-table [dataSourceUrl]='root.equipment.weapons.weaponDamages'></app-table>      
+  <app-table [dataSourceUrl]='root.equipment.weapons.weaponExamples'></app-table>      
+</div>
+
+<div class='eablock'>
+  <app-paragraph [dataSourceUrl]='root.equipment.armors.paragraph'></app-paragraph>
+  <app-table [dataSourceUrl]='root.equipment.armors.armorTypes'></app-table>
+</div>
+
+<app-paragraph [dataSourceUrl]='root.prices.paragraph'></app-paragraph>
+<app-table [dataSourceUrl]='root.prices.prices'></app-table>      
+
+
+<app-paragraph [dataSourceUrl]='root.features.paragraph'></app-paragraph>
+<app-table [dataSourceUrl]='root.features.features'></app-table>      
+<app-paragraph [dataSourceUrl]='root.features.featuresInfo'></app-paragraph>
+
+
+<app-paragraph [dataSourceUrl]='root.features.extraordinaryAbilities.paragraph'></app-paragraph>
+
+<div class='eablock'>
+  <app-paragraph [dataSourceUrl]='root.features.extraordinaryAbilities.effect.offensive.paragraph'></app-paragraph>
+  <div *ngFor='let key of off_k'>
+      <app-paragraph [dataSourceUrl]='off[key].desc'></app-paragraph>
+      <app-table [dataSourceUrl]='off[key].table'></app-table>      
+  </div>    
+</div>
+
+<div class='eablock'>
+  <app-paragraph [dataSourceUrl]='root.features.extraordinaryAbilities.effect.protective.paragraph'></app-paragraph>
+  <div *ngFor='let key of prot_k'>
+      <app-paragraph [dataSourceUrl]='prot[key].desc'></app-paragraph>
+      <app-table [dataSourceUrl]='prot[key].table'></app-table>      
+  </div>
+</div>
+
+<div class='eablock'>
+  <app-paragraph [dataSourceUrl]='root.features.extraordinaryAbilities.rangeAndArea.paragraph'></app-paragraph>
+  <div *ngFor='let key of rang_k'>
+      <app-paragraph [dataSourceUrl]='rang[key].desc'></app-paragraph>
+      <app-table [dataSourceUrl]='rang[key].table'></app-table>      
+  </div>
+</div>
+
+<div class='eablock'>
+    <app-paragraph [dataSourceUrl]='root.features.extraordinaryAbilities.commandWords.desc'></app-paragraph>
+    <app-table [dataSourceUrl]='root.features.extraordinaryAbilities.commandWords.table'></app-table>
+</div>
+
+<div class='eablock'>
+    <app-paragraph [dataSourceUrl]='root.features.extraordinaryAbilities.components.desc'></app-paragraph>
+    <app-table [dataSourceUrl]='root.features.extraordinaryAbilities.components.table'></app-table>
+</div>
+
+<div class='eablock'>
+    <app-paragraph [dataSourceUrl]='root.features.extraordinaryAbilities.duration.desc'></app-paragraph>
+    <app-table [dataSourceUrl]='root.features.extraordinaryAbilities.duration.table'></app-table>
+</div>
+
+<div class='eablock'>
+    <app-paragraph [dataSourceUrl]='root.features.extraordinaryAbilities.gestures.desc'></app-paragraph>
+    <app-table [dataSourceUrl]='root.features.extraordinaryAbilities.gestures.table'></app-table>
+</div>
+
+<div class='eablock'>
+    <app-paragraph [dataSourceUrl]='root.features.extraordinaryAbilities.other.desc'></app-paragraph>
+    <app-table [dataSourceUrl]='root.features.extraordinaryAbilities.other.table'></app-table>
+</div>
+
+<app-paragraph [dataSourceUrl]='root.features.extraordinaryAbilities.totalCost.paragraph'></app-paragraph>
+<app-table [dataSourceUrl]='root.features.extraordinaryAbilities.totalCost.table'></app-table>
+

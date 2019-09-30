@@ -1,4 +1,4 @@
 Property	Damage modifier	Description
-Improvised Simple Martial	-1 - +1	not actual weapons (eg. fists, a chair) less expensive weapons more expensive weapons, requires special training
-Heavy Medium Light	+1 -1 -2	requires 2 hands, disadvantage on any attempts to disarm you requires 1 hand requires 1 hand
-Melee Short-ranged Short-ranged thrown Long-ranged	- -1 - -1	range of 1 metre range of 5/10/15* metres range of 5/10/15, has to be retrieved after use range of 10/20/30, disadvantage in melee
+Improvised<br>Simple<br>Martial	-1<br>-<br>+1	not actual weapons (eg. fists, a chair)<br>less expensive weapons<br>more expensive weapons, requires special training
+Heavy<br>Medium<br>Light	+1<br>-1<br>-2	requires 2 hands, disadvantage on any attempts to disarm you<br>requires 1 hand<br>requires 1 hand
+Melee<br>Short-ranged<br>Short-ranged thrown<br>Long-ranged	-<br>-1<br>-<br>-1	range of 1 metre<br>range of 5/10/15* metres<br>range of 5/10/15, has to be retrieved after use<br>range of 10/20/30, disadvantage in melee

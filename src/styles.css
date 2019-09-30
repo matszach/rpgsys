@@ -18,9 +18,20 @@ html, body {
 }
  
 ::-webkit-scrollbar-track {
-    background-color: #BEA;
+    background-color: #AD9;
 }
  
 ::-webkit-scrollbar-thumb {
-  background-color: #AD9;
+  background-color: #9C8;
+  border: 0.5px solid #8B7;
+  border-radius: 10px;
+  transform: scale(1.1);
+}
+
+.eablock {
+    margin: 20px 10px;
+    padding: 5px 15px;
+    background-color:#BCA;
+    border: 1px solid #AB9;
+    border-radius: 15px;
 }
