@@ -1,0 +1,8 @@
+Attribute name	Calculation	Example usage
+Defence	10 + Agility (+ Armor)	Avoiding attacks than can be dodged/blocked/parried
+Build	10 + Might + Fortitude	Avoiding being knocked down, disarmed, poisoned
+Will	10 + Mind + Extraordinary	Avoiding being charmed, terrified, having your thoughts read
+Intuition	10 + Senses + Social	Avoiding traps, ambushes and other unexpected attacks.
+Speed	5 (base value)	Running, crawling, standing up, opening doors
+Hit Points	10 + Might + 2 x Fortitude	Surviving damage
+Energy points	3 x Mind + 2 x Social + 2 x Extraordinary	Using extraordinary abilities

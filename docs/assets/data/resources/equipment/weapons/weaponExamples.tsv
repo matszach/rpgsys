@@ -1,0 +1,8 @@
+Weapon name	Properties	Weapon damage
+Club	Simple, Light, Melee	1d4
+Dagger	Martial, Light, Melee	1d6
+Hand axe	Martial, Medium, Melee	1d8
+Spear	Simple, Heavy, Melee	1d10
+War hammer	Martial, Heavy, Melee	1d12
+Javelin	Martial, Medium, Short-ranged thrown	1d8
+Crossbow	Martial, Heavy, Long-ranged	1d10

@@ -1,0 +1,4 @@
+Level	Cost	Effect
+I	1	Prevents travel (eg. walking, swimming).
+II	2	... also prevents any major movements (eg. swinging a weapon, complex gestures).
+III	4	... also prevents any minor movements (eg. dropping an item, simple gestures).

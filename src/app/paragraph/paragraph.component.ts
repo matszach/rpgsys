@@ -16,7 +16,7 @@ export class ParagraphComponent implements OnInit {
   service : DataFetcherService;
 
   // subsribed text
-  paragraph: Object;
+  paragraph: any;
 
   // ===== INIT =====
   // constructor injects data service

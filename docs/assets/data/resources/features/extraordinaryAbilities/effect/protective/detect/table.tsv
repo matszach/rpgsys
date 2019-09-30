@@ -1,0 +1,4 @@
+Level	Cost	Effect
+I	0.5	Detects presence.
+II	1	Detects presence AND location.
+III	2	Detects presence, location AND nature of the target.
