@@ -1,11 +1,13 @@
-<table>
-  <tr> 
-    <th *ngFor='let value of headers; let i = index'
-      (click)='handleSortClick(i)' [innerHTML]='value'>
-    </th>
-  </tr>
-  <tr *ngFor='let row of records'> 
-    <td *ngFor='let value of row' [innerHTML]='value'>
-    </td>
-  </tr>
-</table>
+<div class='flow-div'>
+  <table>
+    <tr> 
+      <th *ngFor='let value of headers; let i = index'
+        (click)='handleSortClick(i)' [innerHTML]='value'>
+      </th>
+    </tr>
+    <tr *ngFor='let row of records'> 
+      <td *ngFor='let value of row' [innerHTML]='value'>
+      </td>
+    </tr>
+  </table>
+</div>

@@ -3,14 +3,33 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    font-size: 1em;
 }
 
+/* color variables */
+* {
+    --col_comp_bg : #472;
+    --col_comp_1 : #CFA;
+    --col_comp_2 : #BE9;
+    --col_comp_3 : #AD8;
+    --col_comp_4 : #9C7;
+    --col_comp_5 : #8B6;
+    --col_comp_6 : #7A5;
+
+    --col_body_1 : #EFD;
+    --col_body_2 : #DEC;
+    --col_body_3 : #CDB;
+    --col_body_4 : #BCA;
+    --col_body_5 : #AB9;
+    --col_body_6 : #9A8;
+}
+
+/* body */
 html, body {
-    background-color: #EFD;
+    background-color: var(--col_body_1);
     height: 100%;
     width: 100%;
 }
-
 
 /* scrollbar */
 ::-webkit-scrollbar {
@@ -18,20 +37,20 @@ html, body {
 }
  
 ::-webkit-scrollbar-track {
-    background-color: #AD9;
+    background-color: var(--col_body_4);
 }
  
 ::-webkit-scrollbar-thumb {
-  background-color: #9C8;
-  border: 0.5px solid #8B7;
+  background-color: var(--col_comp_4);
+  border: 0.5px solid var(--col_comp_5);
   border-radius: 10px;
   transform: scale(1.1);
 }
 
 .eablock {
-    margin: 20px 5%;
+    margin: 15px 1%;
     padding: 5px 15px;
-    background-color:#BCA;
-    border: 1px solid #AB9;
+    background-color: var(--col_body_5);
+    border: 1px solid var(--col_body_6);
     border-radius: 15px;
 }

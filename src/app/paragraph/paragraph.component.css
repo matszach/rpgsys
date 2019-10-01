@@ -1,11 +1,11 @@
 h1 {
     padding: 5px 0px;
-    font-size: 20px;
+    font-size: 1.4em;
 }
 
 p {
-    font-size: 18px;
-    margin: 0px 10px;
-    padding-bottom: 10px;
+    font-size: 1em;
+    margin: 0px 2%;
+    padding-bottom: 5px;
     justify-content: baseline;
 }
