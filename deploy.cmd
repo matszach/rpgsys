@@ -1,1 +1,1 @@
-ng build --prod --output-path docs --base-href /
+ng build --prod --output-path docs --base-href rpgsys
