@@ -1,3 +1,3 @@
 Type	Armor bonus	Properties	Examples
-Light armor<br><br>Medium armor<br><br>Heavy armor	+1<br><br>+2<br><br>+3	requires Might 1<br><br>requires Might 2<br><br>requires Might 3	leather armor, gambeson<br><br>breastplate, mail tunic<br><br>full plate armor
-Small shield<br><br>Large shield	+1<br><br>+2	requires Might 1<br><br>requires Might 2, reduces Speed by 1	buckler, heater shield<br><br>kite shield, pavise
+Light armor<br>Medium armor<br>Heavy armor	+1<br>+2<br>+3	requires Might 1<br>requires Might 2<br>requires Might 3	leather armor, gambeson<br>breastplate, mail tunic<br>full plate armor
+Small shield<br>Large shield	+1<br>+2	requires Might 1<br>requires Might 2, reduces Speed by 1	buckler, heater shield<br>kite shield, pavise
