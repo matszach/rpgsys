@@ -1,6 +1,0 @@
-Name	Description	Effect cost multiplier
-Selective targeting	Allows the user to exclude certain targets from area effects (eg. a healing aura that only heals targets of your choice, a fire storm that doesn't affect your allies).	1.1
-Ritual	Using this ability takes 10 minutes instead of 1 action.	0.85
-Target limitation	The ability can only affect a specific type of target (eg. druidic charming spell that only works on animals or a divine flame that only hurts the undead).	0.7
-Rapid	Using this ability does not require you to spend your action, but costs you 1 Movement point instead. You cannot you use this ability if you have already used an extraordinary ability this turn. Using this ability prevents you from using another extraordinary ability this turn.	2
-Attribute substitution	Instead of making a Attack(Special) check to succeed on this ability you can make a Attack(Forceful) or Attack(Precise) check.	1.1
