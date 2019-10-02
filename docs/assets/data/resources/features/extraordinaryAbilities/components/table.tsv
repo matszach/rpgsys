@@ -1,0 +1,5 @@
+Description	Effect cost multiplier
+Does not require you to posses or expend any components or items of power	1
+Requires you to expend an spell component worth at least 1 gp or posses a special focus worth at least 20 gp (eg. a magic crystal)	0.9
+Requires you to expend an spell component worth at least 10 gp or posses a special focus worth at least 200 gp (eg. a wand)	0.8
+Requires you to expend an spell component worth at least 50 gp or posses a special focus worth at least 1000 gp (eg. a legendary magic staff)	0.7

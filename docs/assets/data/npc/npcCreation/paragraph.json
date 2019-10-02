@@ -1,0 +1,4 @@
+{
+	"title" : "NPC creation",
+	"content" : "(Level) - NPC level corresponding to the selected attribute strength. Average of these for the statistics listed below is the NPC's true level.(Hit points) - Average Hit points(Avg protection) - The average of NPC'sDefence, Build, Will and Intuition (any attributes that the players have no reasonable way of targeting can be ignored if a more precise level calculation is required).(Combat bonus) - Average result of attribute and skill dice rolled to perform the NPC's attacks. For example Combat bonus 6 can mean that the NPC has Might 2 and Combat(Forceful) 1 -> 1d6 + 1d4 -> 3.5 + 2.5 -> 6.(Avg damage) - Average damage, or damage equivalent to the effect the NPC has during the first 5 rounds of combat)"
+}
