@@ -1,5 +1,5 @@
 Name	Cost	Effect	Requirements
-Ambush	1	When making Attack(Finesse) weapon attack against a target that does not see you or is otherwise unaware of your location/presence, you roll against your target's Intuition if it's lower that your target's Defence.	
+Ambush	1	When making Attack(Precise) weapon attack against a target that does not see you or is otherwise unaware of your location/presence, you roll against your target's Intuition if it's lower that your target's Defence.	
 Attractive	2	Your appearance is well above average for a member of your species. This may result in preferential treatment from some people and (wanted or unwanted) attention from others.	
 Awareness	2	Once per turn you can spend 1 Movement point to make a Sight, Hearing or a Smell check	Senses 1
 Blind sight	8	Due to tremor sense, echolocation or supernatural intuition, you are aware of any movement within 10 metres of you.	Senses 2
@@ -68,7 +68,7 @@ Shields up	2	When you are holding a shield, at a cost of 2 Movement points you m
 Short sleeper	2	You only need 4 hours of rest instead of the usual 8 to gain the benefits of a rest.	
 Skilled I/II/III	2/4/8	You gain 3/6/9 additional skill points.	
 Sluggishness I/II/III	-2/-4/-8	Your Speed is reduced by 1/2/3.	
-Sneak Attack	4	Upon successfully making Attack(Finesse) weapon attack against a target that does not see you or is otherwise unaware of your location/presence, you can roll an additional damage die equal to the damage die of the weapon you are using.	
+Sneak Attack	4	Upon successfully making Attack(Precise) weapon attack against a target that does not see you or is otherwise unaware of your location/presence, you can roll an additional damage die equal to the damage die of the weapon you are using.	
 Speech reader	1	You gain the ability to read lips.	
 Sprint	1	On your turn, you can sacrifice your action to gain amount of Movement points equal to your Agility + 1	Agility 1
 Superior climbing	2	Climbing checks can be made for free instead of requiring an Action.	

@@ -24,6 +24,11 @@
     --col_body_6 : #9A8;
 }
 
+/* other variables */
+* {
+    --standard_shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+}
+
 /* body */
 html, body {
     background-color: var(--col_body_1);

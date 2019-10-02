@@ -30,6 +30,6 @@ th:active {
 div.flow-div {
     margin: auto;
     overflow-x: auto;
-    overflow-y: hidden;
+    overflow-y: auto;
     width: 100%;
 }
